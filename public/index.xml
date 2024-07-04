@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Divyesh Halwai on Divyesh&#39;s Portfolio</title>
+    <link>//localhost:4321/</link>
+    <description>Recent content in Divyesh Halwai on Divyesh&#39;s Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 27 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:4321/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Style your site colors</title>
+      <link>//localhost:4321/blog/color-themes/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/blog/color-themes/</guid>
+      <description>You can totally customize your site&amp;rsquo;s theme colors within minutes of creating a new site. Read on to find out how, and decide which of the three options meets your needs.&#xA;Use a color theme Hugo Apéro includes 8 built-in color themes that work &amp;ldquo;out of the box.&amp;rdquo; This means you can use a color theme to quickly customize the look of your site without needing to write any CSS. You can select the color theme in your config.</description>
+    </item>
+    <item>
+      <title>An evergreen post</title>
+      <link>//localhost:4321/blog/evergreen/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/blog/evergreen/</guid>
+      <description>Rendering mathematical equations Examples from the mathjax demo. But they work with katex as well.&#xA;Rmarkdown In .Rmarkdown documents, you can use either&#xA;$a \ne 0$ to get inline math: \(a \ne 0\). There is no conflict with using dollar symbols regularly, because knitr automatically escapes freestanding dollar symbols.&#xA;And you can use&#xA;$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$ to get a math paragraph:&#xA;$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.</description>
+    </item>
+    <item>
+      <title>CSS Grid Scaffold</title>
+      <link>//localhost:4321/blog/css-grid-scaffold/</link>
+      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/blog/css-grid-scaffold/</guid>
+      <description>“Grid is the very first CSS module created specifically to solve the layout problems we&amp;rsquo;ve all been hacking our way around for as long as we&amp;rsquo;ve been making websites.” — Chris House, A Complete Guide to CSS Grid Layout 1&#xA;Overview Since I began building websites in Y2K, I&amp;rsquo;ve lost count how many times the phrase &amp;ldquo;&amp;hellip;there&amp;rsquo;s got to be a better way to do this&amp;rdquo; has passed my lips.</description>
+    </item>
+    <item>
+      <title>Palmer Penguins</title>
+      <link>//localhost:4321/project/penguins/</link>
+      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/project/penguins/</guid>
+      <description>“Grid is the very first CSS module created specifically to solve the layout problems we&amp;rsquo;ve all been hacking our way around for as long as we&amp;rsquo;ve been making websites.” — Chris House, A Complete Guide to CSS Grid Layout 1&#xA;Since I began building websites in Y2K, I&amp;rsquo;ve lost count how many times the phrase &amp;ldquo;&amp;hellip;there&amp;rsquo;s got to be a better way to do this&amp;rdquo; has passed my lips. Most times, while fighting with floats and widths of content and sidebars or just basically trying to get something beside something else without using a stupid TABLE.</description>
+    </item>
+    <item>
+      <title>Bakeoff</title>
+      <link>//localhost:4321/project/bakeoff/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/project/bakeoff/</guid>
+      <description>Formspree makes it easy to receive submissions from HTML forms on your static website. Functional Form This theme has a form-to-email feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form (/content/forms/contact.md). Of course, the example shown below (your@email.here) must not be used. Please use your actual email address.</description>
+    </item>
+    <item>
+      <title>Built-in Contact Form</title>
+      <link>//localhost:4321/blog/built-in-contact-form/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/blog/built-in-contact-form/</guid>
+      <description>Formspree makes it easy to receive submissions from HTML forms on your static website. Functional Form This theme has a form-to-email feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the front matter of the form (/content/forms/contact.md). Of course, the example shown below (your@email.here) must not be used. Please use your actual email address.</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>//localhost:4321/contact/</link>
+      <pubDate>Mon, 25 Feb 2019 13:38:41 -0600</pubDate>
+      <guid>//localhost:4321/contact/</guid>
+      <description>** Contact page don&amp;rsquo;t contain a body, just the front matter above. See form.html in the layouts folder.&#xA;Formspree requires a (free) account and new form to be set up. The link is made on the final published url in the field: Restrict to Domain. It is possible to register up to 2 emails free and you can select which one you want the forms to go to within Formspree in the Settings tab.</description>
+    </item>
+    <item>
+      <title>Typography Styles &amp; Element Examples</title>
+      <link>//localhost:4321/elements/</link>
+      <pubDate>Mon, 18 Feb 2019 12:27:33 -0600</pubDate>
+      <guid>//localhost:4321/elements/</guid>
+      <description>Font Sizes A A A A A A A A 6rem&#xA;(96px) 5rem&#xA;(80px) 3rem&#xA;(48px) 2.25rem&#xA;(36px) 1.5rem&#xA;(24px) 1.25rem&#xA;(20px) 1rem&#xA;(16px) .875rem&#xA;(14px) Type Samples Head&amp;shy;line Sub&amp;shy;head&amp;shy;line Level 1 Heading One page to rule them all...well, not really. This page displays sample typography and page elements to illustrate their style. Things like headings and paragraphs showing the beautiful type scale, form elements, tabular data, and image layouts just to name a few.</description>
+    </item>
+    <item>
+      <title>Contributors</title>
+      <link>//localhost:4321/contributors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/contributors/</guid>
+      <description>Thank you to all the folks who have contributed both technical and creative skills to this project:&#xA;Desirée De Leon &amp;#x1f992; (designed 5 of the custom color themes, made illustrations for the workshop, and provided general aesthetic feedback along the way)&#xA;Garrick Aden-Buie &amp;#x1f9d9; (debugged headroom.js and lent his panelset.js code to the theme)&#xA;Allison Horst &amp;#x1f415; (awesome illustrations of campfires, seedlings, and evergreens, as well as my R Markdown hedgehog mascot &amp;#x1f994;)</description>
+    </item>
+    <item>
+      <title>License</title>
+      <link>//localhost:4321/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/license/</guid>
+      <description>My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.</description>
+    </item>
+  </channel>
+</rss>
