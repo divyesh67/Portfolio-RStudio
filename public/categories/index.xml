@@ -6,8 +6,29 @@
     <description>Recent content in Categories on Divyesh&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:4321/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PowerBi</title>
+      <link>//localhost:4321/categories/powerbi/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/categories/powerbi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RStudio</title>
+      <link>//localhost:4321/categories/rstudio/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/categories/rstudio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SQL</title>
+      <link>//localhost:4321/categories/sql/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:4321/categories/sql/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Theme Features</title>
       <link>//localhost:4321/categories/theme-features/</link>
@@ -25,14 +46,14 @@
     <item>
       <title>Package</title>
       <link>//localhost:4321/categories/package/</link>
-      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:4321/categories/package/</guid>
       <description></description>
     </item>
     <item>
       <title>R</title>
       <link>//localhost:4321/categories/r/</link>
-      <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
       <guid>//localhost:4321/categories/r/</guid>
       <description></description>
     </item>
