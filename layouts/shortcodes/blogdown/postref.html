@@ -1,1 +1,6 @@
 {{ if eq (getenv "HUGO_BLOGDOWN_POST_RELREF") "true" }}{{ .Page.RelPermalink }}{{ else }}{{ .Page.Permalink }}{{ end }}
+
+{{ if .Site.Params.umamiScript }}
+<script defer src="{{ .Site.Params.umamiScript }}" data-website-id="{{ .Site.Params.umamiWebsiteID }}"></script>
+{{ end }}
+

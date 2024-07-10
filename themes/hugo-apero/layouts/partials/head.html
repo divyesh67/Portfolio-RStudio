@@ -16,4 +16,16 @@
   <!-- headroom.js -->
   {{ $mainJs := resources.Get "js/main.js" | js.Build "main.js" | minify | fingerprint }}
   <script src="{{ $mainJs.RelPermalink }}" type="text/javascript"></script>
+   <!-- Umami Analytics Script -->
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="16a258f9-9b0b-4b93-93c0-4b1d1cfe49b6"></script>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GC1TLQTEQE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GC1TLQTEQE');
+</script>
+
 </head>

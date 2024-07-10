@@ -1,69 +1,87 @@
 ---
-author: Eric Anderson
-categories:
-- Theme Features
-- R
-- package
-date: "2019-07-02"
+title: Sales Insights using PowerBi
+subtitle: "Building Dashboard using My-SQL and Microsoft PowerBi"
+excerpt: Built my First Dashboard Click here to Checkout!
+date: "2024-07-10"
+author: Divyesh Halwai
 draft: false
-excerpt: Grid is the very first CSS module created specifically to solve the layout
-  problems we’ve all been hacking our way around for as long as we’ve been making
-  websites.
 featured: true
-layout: single-sidebar
+categories:
+- SQL
+- PowerBi
+- RStudio
+layout: single
 links:
-- icon: door-open
-  icon_pack: fas
-  name: website
-  url: https://allisonhorst.github.io/palmerpenguins/
 - icon: github
   icon_pack: fab
-  name: code
-  url: https://github.com/allisonhorst/palmerpenguins/
-- icon: newspaper
-  icon_pack: far
-  name: Blog post
-  url: https://education.rstudio.com/blog/2020/07/palmerpenguins-cran/
-subtitle: ""
+  name: Checkout Code
+  url: https://github.com/divyesh67/SalesAnalytics
 tags:
-- hugo-site
-title: Palmer Penguins
+- Microsoft
 ---
+# 1. Introduction
 
-### “Grid is the very first CSS module created specifically to solve the layout problems we've all been hacking our way around for as long as we've been making websites.”
+Project Overview This project involves creating a Power BI dashboard using data from a MySQL database. The dashboard provides insights into revenue, sales quantity by markets, revenue trends, top customers, and top products.
 
-*— [Chris House, A Complete Guide to CSS Grid Layout](http://chris.house/blog/a-complete-guide-css-grid-layout/)* [^1]
-
----
-
-Since I began building websites in Y2K, I've lost count how many times the phrase "...there's got to be a better way to do this" has passed my lips. Most times, while fighting with floats and widths of content and sidebars or just basically trying to get something beside something else without using a stupid `TABLE`.
-
-Well, technology sure has come a long way since slicing up images to match the table-based layout that was just created in Dreamweaver. You'd be surprised (or maybe you wouldn't) how challenging the standard header, content, sidebar, footer layout could be to actually get right.
-
-{{< figure src="css-grid-cover.png" alt="Traditional right sidebar layout" caption="A visual example of the traditional right sidebar layout" >}}
+Although this is a fundamental project that involves fetching data from a SQL server, it has been an invaluable learning experience for me as a beginner in data analysis. Through this project, I gained a deeper understanding of advanced SQL queries and learned how to create an interactive and beautiful Power BI dashboard.😃
 
 ---
+# 2. Dashboard Overiew
+{{< figure src="powerbi.jpg" alt="Traditional right sidebar layout" caption="A visual example of the Powerbi Dashboard(Unfortunately, sharing the link requires a Microsoft Paid Subscription.)" >}}
+The Power BI dashboard includes the following key insights
 
-### <dfn title="Ermahgerd is a humorous version of the phrase oh my god, written as though pronounced with a heavy influence of extra Rs. It's meant to imitate the sound of someone speaking through a retainer.">ERMAHGERD</dfn>
+Revenue by Markets: A bar chart displaying revenue generated in different markets. Sales Quantity by Markets: A bar chart showing the sales quantity in various markets. Revenue Trend: A Line chart depicting the revenue trend over time. Top 5 Customers: listing the top 5 customers by revenue. Top 5 Products: showing the top 5 products by revenue.
 
-A proper grid is what we always wanted, no ... _needed_ to build websites with a solid, unbreakable structure. And that's why I used it in this theme. I call this feature a "scaffold" because none of the _content_ is laid out on this grid. Only the main _structure_: consisting of the `header`, `footer`, `main`, `aside`, and `footer`. As you can tell by this quote from the [W3C](https://www.w3.org/TR/css-grid-1/) on the candidate recommendation itself, Grid is the perfect tool for the job:
+This dashboard provides a comprehensive view of the business performance, allowing stakeholders to make informed decisions based on the visualized data.
 
-> ##### CSS Grid Layout Module
->
-> This CSS module defines a two-dimensional grid-based layout system, optimized for user interface design. In the grid layout model, the children of a grid container can be positioned into arbitrary slots in a predefined flexible or fixed-size layout grid.
->
-> — _W3C_
+---
 
-CSS Grid is a total game changer, IMHO. Compared to the bottomless pit of despair that is the old way, the new way of building a site structure can be done in as little as 5 lines of CSS. Of course, it always takes more than that, but not much. I mean this is really the meat of the deal:
+# 3. Steps
+### 1. Import SQL File into MySQL Database
+Import the provided SQL file into the MySQL database to initialize the data.
 
-```css
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(3, auto);
-}
+### 2 .Run Data Normalization Queries
+
+```SQL query
+--Query to Run Through Sales Data
+SELECT 
+    SUM(sales.transactions.sales_amount)
+FROM
+    sales.transactions
+        INNER JOIN
+    sales.date ON sales.transactions.order_date = sales.date.date
+WHERE
+    sales.date.year = 2020
+        AND sales.transactions.market_code = 'Mark001';
 ```
+```SQL query
+--Query to check the currency present ins USD
+SELECT * FROM  sales.transactions
+WHERE sales_amount <= 0;
 
-#### What an amazing time to be a web developer. Anyway, I hope you enjoy this "feature" that you'll probably never notice or even see. Maybe that's the best part of a good user interface – the hidden stuff that just works.
+
+SELECT COUNT(*) FROM transactions
+WHERE transactions.currency = 'INR';
+    
+SELECT COUNT(*) FROM  transactions
+WHERE  transactions.currency = 'INR';
+
+SELECT * FROM  transactions WHERE
+transactions.currency = 'USD' OR transactions.currency = '/USD';
+
+        
+```
+Execute the queries included in the repository to normalize and prepare the data for analysis. These queries ensure the data is clean and ready for use in Power BI.
+
+### 3. Connect MySQL Database to Power BI
+Establish a connection between the MySQL database and Power BI. This allows Power BI to access and visualize the data directly. This Step is very important requires simple steps to connect to locally running SQL server.
+
+### 4. Create Visualizations in Power BI
+Utilize Power BI tools to create various visualizations, such as bar charts, line charts, and tables, to represent the data insights effectively.
+
+Run additional queries to verify the accuracy of the visualizations in Power BI, ensuring that the results match the expected outcomes.
+```
+Additional Query must be executed to verify Power-Bi figures which i have update on the github repo
+```
 
 [^1]: The original article cited here is now updated and maintained by the staff over at CSS-Tricks. Bookmark their version if you want to dive in and learn about CSS Grid: [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
