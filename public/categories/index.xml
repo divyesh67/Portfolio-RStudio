@@ -43,19 +43,5 @@
       <guid>//localhost:4321/categories/evergreen/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Package</title>
-      <link>//localhost:4321/categories/package/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/categories/package/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>R</title>
-      <link>//localhost:4321/categories/r/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:4321/categories/r/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
